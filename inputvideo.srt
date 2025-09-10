@@ -1,44 +1,224 @@
 1
 00:00:01,030 --> 00:00:03,629
-Speaker SPEAKER_01: Can I ask you a question? Of course you can.
+SPEAKER_01: Can I ask you a question? Of course you can.
 
 2
-00:00:05,209 --> 00:00:16,530
-Speaker SPEAKER_01: Can you get me out of this place? I'm afraid I'm of no use to you there. Why couldn't they put me in a proper prison? A better facility wasn't available. What, put me in a madhouse? It's a secure training centre. Training?
+00:00:05,209 --> 00:00:06,299
+SPEAKER_01: Can you get me out of this?
 
 3
-00:00:17,140 --> 00:00:35,130
-Speaker SPEAKER_01: Well, what are they training us for? The other boys just scream all the time. I thought this had been explained to you, Jamie. And they rock practicing forwards and they shout what current agents do. Young offenders institutions have got 15 up. All the way from Corrie. Cranky goes nuts every time he sees Steve McDonald. It's maddening, you don't understand. This was the best place for you to be. Ryan gets to stay at home until his trial. Ryan isn't accused of such a serious crime. Accused?
+00:00:06,299 --> 00:00:07,490
+SPEAKER_01: place.
 
 4
-00:00:23,199 --> 00:00:25,480
-Speaker SPEAKER_00: All the way from Corrie.
+00:00:07,490 --> 00:00:09,339
+SPEAKER_01: I'm afraid I'm of no use to you there.
+
+5
+00:00:09,339 --> 00:00:10,939
+SPEAKER_01: Why couldn't they put me in a proper...
 
 6
-00:00:35,920 --> 00:01:07,019
-Speaker SPEAKER_01: It's all accused. If I did it, if I hurt her, then I'd get it, but I didn't, so... As far as I understand it, Jamie, and this wasn't my decision, this was the best place for it to be. Nothing has been decided yet. You know where it's gonna be, London or somewhere local? You need to sit down. You need to sit down, Jamie. If you don't sit down... Does that mean you don't know what you just want to tell me? Nothing's been decided yet. You need to sit down. I don't want to sit down. If you don't sit down, I have to stop this discussion. Maybe I want you to. Do you? It'd piss you off, that, wouldn't it? You'd have to go home and then come back again. Jamie, if you do not sit down... I don't fucking want to sit down!
+00:00:10,939 --> 00:00:12,160
+SPEAKER_01: prison a better facility.
 
 7
-00:00:42,320 --> 00:00:43,909
-Speaker SPEAKER_00: I'mma get in there for the trial.
+00:00:12,160 --> 00:00:14,019
+SPEAKER_01: He wasn't available. You're putting me in a muddle!
 
 8
-00:00:45,560 --> 00:00:47,920
-Speaker SPEAKER_00: You know where it's gonna be? London or Saint Malo?
+00:00:14,019 --> 00:00:15,070
+SPEAKER_01: It's a secure training.
+
+9
+00:00:15,070 --> 00:00:16,530
+SPEAKER_01: Training.
 
 10
-00:01:07,019 --> 00:01:14,920
-Speaker SPEAKER_00: You do not tell me when to sit down! You do not control what I fucking... Look at me now!
+00:00:17,140 --> 00:00:18,140
+SPEAKER_01: What, have you trained enough?
 
 11
-00:01:15,969 --> 00:01:16,530
-Speaker SPEAKER_00: YOU KNO-
+00:00:18,140 --> 00:00:19,199
+SPEAKER_01: I was four.
 
 12
-00:01:16,530 --> 00:01:21,180
-Speaker SPEAKER_01: You cannot control what I do in my life! Get that in the fucking little head of yours!
+00:00:19,199 --> 00:00:20,449
+SPEAKER_01: The other boys just scream all the time.
 
 13
+00:00:20,449 --> 00:00:21,920
+SPEAKER_01: And you've got problems.
+
+14
+00:00:21,920 --> 00:00:23,010
+SPEAKER_01: forwards in the shower
+
+15
+00:00:23,010 --> 00:00:24,100
+SPEAKER_01: Young and free.
+
+16
+00:00:24,100 --> 00:00:26,300
+SPEAKER_01: All the way from Korea.
+
+17
+00:00:26,300 --> 00:00:28,219
+SPEAKER_01: every time you see Steve McDonald.
+
+18
+00:00:28,219 --> 00:00:29,339
+SPEAKER_01: I don't understand.
+
+19
+00:00:29,339 --> 00:00:31,550
+SPEAKER_01: What's the best place for you to be?
+
+20
+00:00:31,550 --> 00:00:33,219
+SPEAKER_01: Stay at home until his trial.
+
+21
+00:00:33,219 --> 00:00:34,909
+SPEAKER_01: accused of such a serious crime.
+
+22
+00:00:23,199 --> 00:00:25,480
+SPEAKER_00: All the way from Corrie.
+
+24
+00:00:35,920 --> 00:00:37,439
+SPEAKER_01: It's all accused.
+
+25
+00:00:37,439 --> 00:00:38,820
+SPEAKER_01: If I did it, if I...
+
+26
+00:00:38,820 --> 00:00:39,840
+SPEAKER_01: And then again, he got...
+
+27
+00:00:39,840 --> 00:00:40,929
+SPEAKER_01: I didn't so...
+
+28
+00:00:40,929 --> 00:00:42,109
+SPEAKER_01: and this wasn't my decision.
+
+29
+00:00:42,109 --> 00:00:43,490
+SPEAKER_01: I'mma get in there.
+
+30
+00:00:43,490 --> 00:00:44,960
+SPEAKER_01: Nothing has been destroyed.
+
+31
+00:00:44,960 --> 00:00:46,719
+SPEAKER_01: Get you know where it's gonna be
+
+32
+00:00:46,719 --> 00:00:48,100
+SPEAKER_01: I'm an Osama local.
+
+33
+00:00:48,100 --> 00:00:49,539
+SPEAKER_01: We need to sit down.
+
+34
+00:00:49,539 --> 00:00:50,780
+SPEAKER_01: Jamie, if you don't...
+
+35
+00:00:50,780 --> 00:00:52,219
+SPEAKER_01: I don't mean you don't know you
+
+36
+00:00:52,219 --> 00:00:53,280
+SPEAKER_01: Does that mean you don't know each other?
+
+37
+00:00:53,280 --> 00:00:54,460
+SPEAKER_01: Nothing's been decided yet.
+
+38
+00:00:54,460 --> 00:00:55,619
+SPEAKER_01: You need to sit.
+
+39
+00:00:55,619 --> 00:00:56,960
+SPEAKER_01: I don't want to sit down.
+
+40
+00:00:56,960 --> 00:00:58,049
+SPEAKER_01: Don't sit down, I have to...
+
+41
+00:00:58,049 --> 00:00:59,490
+SPEAKER_01: Stop this discussion.
+
+42
+00:00:59,490 --> 00:01:00,829
+SPEAKER_01: Do you?
+
+43
+00:01:00,829 --> 00:01:01,920
+SPEAKER_01: It pisses you off, doesn't it?
+
+44
+00:01:01,920 --> 00:01:03,390
+SPEAKER_01: That's a woman
+
+45
+00:01:03,390 --> 00:01:04,670
+SPEAKER_01: Jamie, if you don't...
+
+46
+00:01:04,670 --> 00:01:06,180
+SPEAKER_01: Do not sit. Luna!
+
+47
+00:00:42,320 --> 00:00:43,909
+SPEAKER_00: I'mma get in there for the trial.
+
+48
+00:00:45,560 --> 00:00:47,920
+SPEAKER_00: You know where it's gonna be? London or Saint Malo?
+
+50
+00:01:07,019 --> 00:01:08,060
+SPEAKER_00: Don't!
+
+51
+00:01:08,060 --> 00:01:09,219
+SPEAKER_00: No! You're not!
+
+52
+00:01:09,219 --> 00:01:10,909
+SPEAKER_00: Tell me when to sit down!
+
+53
+00:01:10,909 --> 00:01:11,969
+SPEAKER_00: You do not!
+
+54
+00:01:11,969 --> 00:01:12,989
+SPEAKER_00: Control Y!
+
+55
+00:01:12,989 --> 00:01:14,920
+SPEAKER_00: Look at me now!
+
+56
+00:01:15,969 --> 00:01:16,530
+SPEAKER_00: YOU KNO-
+
+57
+00:01:16,530 --> 00:01:21,180
+SPEAKER_01: You cannot control what I do in my life! Get that in the fucking little head of yours!
+
+58
 00:01:22,469 --> 00:01:23,489
-Speaker SPEAKER_01: Fucking hell!
+SPEAKER_01: Fucking hell!
 
