@@ -1,4 +1,3 @@
-print("Starting diarization script...")
 import os
 from pyannote.audio import Pipeline
 from dotenv import load_dotenv
