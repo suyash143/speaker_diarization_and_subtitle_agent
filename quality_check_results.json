@@ -1,0 +1,857 @@
+{
+  "turn_accuracy": {
+    "score": 0.0005115278794634304,
+    "feedback": "Speaker turn accuracy: 0.00. Weak speaker boundary detection - consider improving diarization.",
+    "details": [
+      {
+        "transition_time": 34.91,
+        "from_speaker": "SPEAKER_01",
+        "to_speaker": "SPEAKER_00",
+        "turn_score": 0.000261353707361911,
+        "confidence": "Low"
+      },
+      {
+        "transition_time": 27.47,
+        "from_speaker": "SPEAKER_00",
+        "to_speaker": "SPEAKER_01",
+        "turn_score": 0.00010317702613138469,
+        "confidence": "Low"
+      },
+      {
+        "transition_time": 66.18,
+        "from_speaker": "SPEAKER_01",
+        "to_speaker": "SPEAKER_00",
+        "turn_score": 0.000684807947308963,
+        "confidence": "Low"
+      },
+      {
+        "transition_time": 76.53,
+        "from_speaker": "SPEAKER_00",
+        "to_speaker": "SPEAKER_01",
+        "turn_score": 0.0009967728370514628,
+        "confidence": "Low"
+      }
+    ],
+    "num_transitions": 4
+  },
+  "consistency": {
+    "score": 0.9986760963000436,
+    "feedback": "Speaker consistency: 1.00. Excellent speaker label consistency. Warning: Potential confusion between ['SPEAKER_00', 'SPEAKER_01', 'SPEAKER_00', 'SPEAKER_01'].",
+    "speaker_scores": {
+      "SPEAKER_01": 0.9982233805938194,
+      "SPEAKER_00": 0.9991288120062678
+    },
+    "confusion_analysis": {
+      "potential_confusion": true,
+      "confused_pairs": [
+        "SPEAKER_00",
+        "SPEAKER_01",
+        "SPEAKER_00",
+        "SPEAKER_01"
+      ]
+    }
+  },
+  "segmentation": {
+    "score": 0.9,
+    "feedback": "Multiple gaps/overlaps detected: 11",
+    "statistics": {
+      "avg_duration": 1.4275862068965517,
+      "std_duration": 0.615776242233659,
+      "total_segments": 58,
+      "very_short_segments": 2,
+      "very_long_segments": 0,
+      "rapid_switches": 2,
+      "gaps_overlaps": 11
+    },
+    "issues": [
+      "Multiple gaps/overlaps detected: 11"
+    ]
+  },
+  "individual_analysis": {
+    "individual_segments": [
+      {
+        "segment_id": 1,
+        "start": 1.03,
+        "end": 3.63,
+        "duration": 2.5999999999999996,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.501867497089455,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 2,
+        "start": 5.21,
+        "end": 6.3,
+        "duration": 1.0899999999999999,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5026474923173465,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 3,
+        "start": 6.3,
+        "end": 7.49,
+        "duration": 1.1900000000000004,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5027799916194635,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 4,
+        "start": 7.49,
+        "end": 9.34,
+        "duration": 1.8499999999999996,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5015481854712778,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 5,
+        "start": 9.34,
+        "end": 10.94,
+        "duration": 1.5999999999999996,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5023631558530702,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 6,
+        "start": 10.94,
+        "end": 12.16,
+        "duration": 1.2200000000000006,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5019307479581929,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 7,
+        "start": 12.16,
+        "end": 14.02,
+        "duration": 1.8599999999999994,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5026595005239958,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 8,
+        "start": 14.02,
+        "end": 15.07,
+        "duration": 1.0500000000000007,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5013944582665741,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 9,
+        "start": 15.07,
+        "end": 16.53,
+        "duration": 1.4600000000000009,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5025959266474338,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 10,
+        "start": 17.14,
+        "end": 18.14,
+        "duration": 1.0,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5012640979867328,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 11,
+        "start": 18.14,
+        "end": 19.2,
+        "duration": 1.0599999999999987,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5012042444418914,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 12,
+        "start": 19.2,
+        "end": 20.45,
+        "duration": 1.25,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5014485957497684,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 13,
+        "start": 20.45,
+        "end": 21.92,
+        "duration": 1.4700000000000024,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5025052759350218,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 14,
+        "start": 21.92,
+        "end": 23.01,
+        "duration": 1.0899999999999999,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5015594748678732,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 15,
+        "start": 23.01,
+        "end": 24.1,
+        "duration": 1.0899999999999999,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5016693306410354,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 16,
+        "start": 24.1,
+        "end": 26.3,
+        "duration": 2.1999999999999993,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5019972723326322,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 17,
+        "start": 26.3,
+        "end": 28.22,
+        "duration": 1.9199999999999982,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5038637845111313,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 18,
+        "start": 28.22,
+        "end": 29.34,
+        "duration": 1.120000000000001,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5020755253849716,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 19,
+        "start": 29.34,
+        "end": 31.55,
+        "duration": 2.210000000000001,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5030386709244671,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 20,
+        "start": 31.55,
+        "end": 33.22,
+        "duration": 1.6699999999999982,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5016519824016082,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 21,
+        "start": 33.22,
+        "end": 34.91,
+        "duration": 1.6899999999999977,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5015492861928618,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 22,
+        "start": 23.2,
+        "end": 25.48,
+        "duration": 2.280000000000001,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.4016239236734643,
+        "issues": [
+          "Overlap (11.7s) with previous segment",
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Overlap (11.7s) with previous segment; Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 23,
+        "start": 27.22,
+        "end": 27.47,
+        "duration": 0.25,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.625,
+        "issues": [
+          "Very short segment (possible over-segmentation)",
+          "Large gap (8.5s) to next segment"
+        ],
+        "feedback": "Quality: Good. Issues: Very short segment (possible over-segmentation); Large gap (8.5s) to next segment"
+      },
+      {
+        "segment_id": 24,
+        "start": 35.92,
+        "end": 37.44,
+        "duration": 1.519999999999996,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.4513422818833628,
+        "issues": [
+          "Large gap (8.5s) from previous segment",
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Large gap (8.5s) from previous segment; Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 25,
+        "start": 37.44,
+        "end": 38.82,
+        "duration": 1.3800000000000026,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5018474108094688,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 26,
+        "start": 38.82,
+        "end": 39.84,
+        "duration": 1.0200000000000031,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5087541907140367,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 27,
+        "start": 39.84,
+        "end": 40.93,
+        "duration": 1.0899999999999963,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5015057661224782,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 28,
+        "start": 40.93,
+        "end": 42.11,
+        "duration": 1.1799999999999997,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5047410449606656,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 29,
+        "start": 42.11,
+        "end": 43.49,
+        "duration": 1.3800000000000026,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5037648163111507,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 30,
+        "start": 43.49,
+        "end": 44.96,
+        "duration": 1.4699999999999989,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.502416152278864,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 31,
+        "start": 44.96,
+        "end": 46.72,
+        "duration": 1.759999999999998,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5034149901829744,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 32,
+        "start": 46.72,
+        "end": 48.1,
+        "duration": 1.3800000000000026,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5028922679301395,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 33,
+        "start": 48.1,
+        "end": 49.54,
+        "duration": 1.4399999999999977,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5018759000733682,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 34,
+        "start": 49.54,
+        "end": 50.78,
+        "duration": 1.240000000000002,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5036272939678127,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 35,
+        "start": 50.78,
+        "end": 52.22,
+        "duration": 1.4399999999999977,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5025363483294412,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 36,
+        "start": 52.22,
+        "end": 53.28,
+        "duration": 1.0600000000000023,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5026516170092459,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 37,
+        "start": 53.28,
+        "end": 54.46,
+        "duration": 1.1799999999999997,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5017228727305798,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 38,
+        "start": 54.46,
+        "end": 55.62,
+        "duration": 1.1599999999999966,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5017053492172416,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 39,
+        "start": 55.62,
+        "end": 56.96,
+        "duration": 1.3400000000000034,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5026807749701558,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 40,
+        "start": 56.96,
+        "end": 58.05,
+        "duration": 1.0899999999999963,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5022145124429149,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 41,
+        "start": 58.05,
+        "end": 59.49,
+        "duration": 1.4400000000000048,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5019109331793622,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 42,
+        "start": 59.49,
+        "end": 60.83,
+        "duration": 1.3399999999999963,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5021509920328483,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 43,
+        "start": 60.83,
+        "end": 61.92,
+        "duration": 1.0900000000000034,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5016213789333552,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 44,
+        "start": 61.92,
+        "end": 63.39,
+        "duration": 1.4699999999999989,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5062013730280719,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 45,
+        "start": 63.39,
+        "end": 64.67,
+        "duration": 1.2800000000000011,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5025080718850892,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 46,
+        "start": 64.67,
+        "end": 66.18,
+        "duration": 1.5100000000000051,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5015642007619876,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 47,
+        "start": 42.32,
+        "end": 43.91,
+        "duration": 1.5899999999999963,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.4025868785598884,
+        "issues": [
+          "Overlap (23.9s) with previous segment",
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Overlap (23.9s) with previous segment; Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 48,
+        "start": 45.56,
+        "end": 47.92,
+        "duration": 2.3599999999999994,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.4783693700675005,
+        "issues": [
+          "Large gap (3.6s) to next segment",
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Large gap (3.6s) to next segment; Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 49,
+        "start": 51.53,
+        "end": 51.77,
+        "duration": 0.240000000000002,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.575,
+        "issues": [
+          "Very short segment (possible over-segmentation)",
+          "Large gap (3.6s) from previous segment",
+          "Large gap (15.2s) to next segment"
+        ],
+        "feedback": "Quality: Fair. Issues: Very short segment (possible over-segmentation); Large gap (3.6s) from previous segment; Large gap (15.2s) to next segment"
+      },
+      {
+        "segment_id": 50,
+        "start": 67.02,
+        "end": 68.06,
+        "duration": 1.0400000000000063,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.4548418513892932,
+        "issues": [
+          "Large gap (15.2s) from previous segment",
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Large gap (15.2s) from previous segment; Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 51,
+        "start": 68.06,
+        "end": 69.22,
+        "duration": 1.1599999999999966,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.5021981957098466,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 52,
+        "start": 69.22,
+        "end": 70.91,
+        "duration": 1.6899999999999977,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.5022683373875024,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 53,
+        "start": 70.91,
+        "end": 71.97,
+        "duration": 1.0600000000000023,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.5027729285114901,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 54,
+        "start": 71.97,
+        "end": 72.99,
+        "duration": 1.019999999999996,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.5033124155938454,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 55,
+        "start": 72.99,
+        "end": 74.92,
+        "duration": 1.9300000000000068,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.5044439873221739,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 56,
+        "start": 75.97,
+        "end": 76.53,
+        "duration": 0.5600000000000023,
+        "speaker": "SPEAKER_00",
+        "text": "",
+        "confidence": 0.5022947638667965,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 57,
+        "start": 76.53,
+        "end": 81.18,
+        "duration": 4.650000000000006,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5028530987936294,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      },
+      {
+        "segment_id": 58,
+        "start": 82.47,
+        "end": 83.49,
+        "duration": 1.019999999999996,
+        "speaker": "SPEAKER_01",
+        "text": "",
+        "confidence": 0.5046658470422768,
+        "issues": [
+          "Low audio quality or unclear speech"
+        ],
+        "feedback": "Quality: Fair. Issues: Low audio quality or unclear speech"
+      }
+    ],
+    "summary_stats": {
+      "total_segments": 58,
+      "avg_confidence": 0.5003706316342953,
+      "min_confidence": 0.4016239236734643,
+      "max_confidence": 0.625,
+      "quality_distribution": {
+        "high_quality": 0,
+        "good_quality": 1,
+        "fair_quality": 57,
+        "poor_quality": 0
+      },
+      "common_issues": {
+        "Low audio quality or unclear speech": 56,
+        "Large gap": 6,
+        "Overlap": 2,
+        "Very short segment": 2
+      }
+    }
+  },
+  "overall_confidence": 0.6330625413931691,
+  "detailed_feedback": "GOOD diarization quality with minor issues. \u2717 Weak speaker boundary detection - many transitions lack clear acoustic differentiation. \u2713 Excellent speaker label consistency throughout the audio. \u2713 Well-balanced segmentation with appropriate segment lengths. RECOMMENDATIONS: Consider using better speaker embedding models or VAD preprocessing; Improve timestamp alignment to reduce gaps and overlaps",
+  "summary": "\n        QUALITY CHECK SUMMARY\n        ====================\n        Overall Quality: Good (Score: 0.63)\n\n        Component Scores:\n        - Speaker Turn Accuracy: 0.00\n        - Speaker Consistency: 1.00  \n        - Segmentation Quality: 0.90\n\n        Key Findings:\n        - Speaker turn accuracy: 0.00. Weak speaker boundary detection - consider improving diarization.\n        - Speaker consistency: 1.00. Excellent speaker label consistency. Warning: Potential confusion between ['SPEAKER_00', 'SPEAKER_01', 'SPEAKER_00', 'SPEAKER_01'].\n        - Multiple gaps/overlaps detected: 11\n\n        Total Segments Analyzed: 58\n        Unique Speakers Detected: 2\n        "
+}
