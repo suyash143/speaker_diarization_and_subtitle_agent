@@ -36,7 +36,7 @@
   },
   "consistency": {
     "score": 0.9986760963000436,
-    "feedback": "Speaker consistency: 1.00. Excellent speaker label consistency. Warning: Potential confusion between ['SPEAKER_00', 'SPEAKER_01', 'SPEAKER_00', 'SPEAKER_01'].",
+    "feedback": "Speaker consistency: 1.00. Excellent speaker label consistency. Warning: Potential confusion between ['SPEAKER_01', 'SPEAKER_00', 'SPEAKER_01', 'SPEAKER_00'].",
     "speaker_scores": {
       "SPEAKER_01": 0.9982233805938194,
       "SPEAKER_00": 0.9991288120062678
@@ -44,10 +44,10 @@
     "confusion_analysis": {
       "potential_confusion": true,
       "confused_pairs": [
-        "SPEAKER_00",
         "SPEAKER_01",
         "SPEAKER_00",
-        "SPEAKER_01"
+        "SPEAKER_01",
+        "SPEAKER_00"
       ]
     }
   },
@@ -853,5 +853,5 @@
   },
   "overall_confidence": 0.6330625413931691,
   "detailed_feedback": "GOOD diarization quality with minor issues. \u2717 Weak speaker boundary detection - many transitions lack clear acoustic differentiation. \u2713 Excellent speaker label consistency throughout the audio. \u2713 Well-balanced segmentation with appropriate segment lengths. RECOMMENDATIONS: Consider using better speaker embedding models or VAD preprocessing; Improve timestamp alignment to reduce gaps and overlaps",
-  "summary": "\n        QUALITY CHECK SUMMARY\n        ====================\n        Overall Quality: Good (Score: 0.63)\n\n        Component Scores:\n        - Speaker Turn Accuracy: 0.00\n        - Speaker Consistency: 1.00  \n        - Segmentation Quality: 0.90\n\n        Key Findings:\n        - Speaker turn accuracy: 0.00. Weak speaker boundary detection - consider improving diarization.\n        - Speaker consistency: 1.00. Excellent speaker label consistency. Warning: Potential confusion between ['SPEAKER_00', 'SPEAKER_01', 'SPEAKER_00', 'SPEAKER_01'].\n        - Multiple gaps/overlaps detected: 11\n\n        Total Segments Analyzed: 58\n        Unique Speakers Detected: 2\n        "
+  "summary": "\n        QUALITY CHECK SUMMARY\n        ====================\n        Overall Quality: Good (Score: 0.63)\n\n        Component Scores:\n        - Speaker Turn Accuracy: 0.00\n        - Speaker Consistency: 1.00  \n        - Segmentation Quality: 0.90\n\n        Key Findings:\n        - Speaker turn accuracy: 0.00. Weak speaker boundary detection - consider improving diarization.\n        - Speaker consistency: 1.00. Excellent speaker label consistency. Warning: Potential confusion between ['SPEAKER_01', 'SPEAKER_00', 'SPEAKER_01', 'SPEAKER_00'].\n        - Multiple gaps/overlaps detected: 11\n\n        Total Segments Analyzed: 58\n        Unique Speakers Detected: 2\n        "
 }
