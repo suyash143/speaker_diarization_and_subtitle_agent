@@ -745,8 +745,6 @@ if __name__ == "__main__":
     )
 
     results = agent.run_complete_analysis()
-
     agent.print_detailed_results(results)
-
 
     agent.export_results('quality_check_results.json', results)

@@ -1,9 +1,9 @@
 import os
+import sys
 from pydub import AudioSegment
 import whisperx
 import tempfile
 
-# Helper to convert seconds to SRT timestamp
 def srt_timestamp(seconds):
     hours = int(seconds // 3600)
     minutes = int((seconds % 3600) // 60)
@@ -11,7 +11,6 @@ def srt_timestamp(seconds):
     millis = int((seconds - int(seconds)) * 1000)
     return f"{hours:02}:{minutes:02}:{secs:02},{millis:03}"
 
-# Read diarization segments
 def read_segments(path):
     segments = []
     with open(path, 'r') as f:
@@ -28,7 +27,6 @@ def read_segments(path):
             })
     return segments
 
-# Main pipeline
 def main():
     audio_path = 'inputaudio.wav'
     diar_path = 'diarization_segments.txt'
@@ -51,7 +49,6 @@ def main():
                 print(f"Segment {idx}: {seg['speaker']} {duration:.2f}s, file size {file_size} bytes")
                 result = model.transcribe(temp_audio.name)
                 print(f"WhisperX result for segment {idx}: {result}")
-# Extract and concatenate all segment texts
                 if 'segments' in result and result['segments']:
                     text = ' '.join([seg['text'].strip() for seg in result['segments'] if seg['text'].strip()])
                 else:
